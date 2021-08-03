@@ -13,6 +13,7 @@
     "bootstrap": "^4.6.0",
     "font-awesome": "^4.7.0",
     "framer-motion": "^4.1.17",
+    "git-cz": "^4.7.6",
     "node-sass": "^6.0.1",
     "react": "^17.0.2",
     "react-bootstrap": "^1.6.1",
@@ -29,7 +30,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "commit": "git add . && git cz"
   },
   "eslintConfig": {
     "extends": [
