@@ -8,6 +8,14 @@ import { motion } from "framer-motion";
 import SingleBread from "../../assets/toaster/images/single_bread.svg";
 import { AnimatePresence } from "framer-motion";
 
+const steps = [
+  "Select the level of toast : Click on the bread to proceed",
+  "Step 1: Change the toaster level to 2 ",
+  "Step 2: Place the bread inside the toaster",
+  "Step 3: Pull down the place holder to insert the bread",
+  "DONE",
+];
+
 const container = {
   hidden: {
     opacity: 0,
@@ -25,12 +33,35 @@ const container = {
 };
 
 function Toaster() {
+  const [step, setStep] = useState(0);
   const [showMenu, setShowMenu] = useState(false);
-  const handleOncLick = (e)=>{
-    console.log(e.target)
-      e.target.classList.add(Homestyles["focus-bread"])
-  }
-  
+  const handleOncLick = (e) => {
+    console.log(e.target);
+    e.target.classList.add(Homestyles["focus-bread"]);
+  };
+  const handleNextStep = () => {
+    if (step == 4) return;
+    setStep(step + 1);
+  };
+  const renderContent = () => {
+    if (step == 0)
+      return (
+        <div>
+          <div
+            className={`${Homestyles["bread-overlay"]}`}
+            onClick={handleOncLick}
+          ></div>
+          <img
+            src={Breads}
+            className={`${Homestyles["main-image"]} ${Homestyles["centered"]} ${Homestyles["fade-in"]}`}
+          />
+        </div>
+      );
+  };
+  const stepsInfo = () => {
+    return <p className={`${Homestyles["description"]}`}>{steps[step]}</p>;
+  };
+
   return (
     <AnimatePresence>
       <div className="Toaster">
@@ -51,13 +82,16 @@ function Toaster() {
         <section className={Homestyles["container"]}>
           <div className={Homestyles["guide-image"]}>
             <div className={`${Homestyles["main-image-wrapper"]}`}>
-            <div className={`${Homestyles["bread-overlay"]}`} onClick={handleOncLick}></div>
-            <img src={Breads} className={`${Homestyles["main-image"]} ${Homestyles["centered"]} ${Homestyles["fade-in"]}`} />
+              {renderContent()}
             </div>
           </div>
-          <div className={Homestyles["guide-text"]}>
-            <h1 className={`${Homestyles["title"]} ${Homestyles["title-small"]}  ${Homestyles["bold"]}`}>quick guide</h1>
-            <p className={`${Homestyles["description"]}`}>Select the level of toast : Click on the bread to proceed</p>
+          <div className={Homestyles["guide-text"]} onClick={handleNextStep}>
+            <h1
+              className={`${Homestyles["title"]} ${Homestyles["title-small"]}  ${Homestyles["bold"]}`}
+            >
+              quick guide
+            </h1>
+            {stepsInfo()}
           </div>
         </section>
       </div>
