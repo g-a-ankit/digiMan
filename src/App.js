@@ -16,7 +16,7 @@ import FuncNav from "./components/TvRemote/Guide/guides/Functional/FuncNav";
 import SoftwareUpdates from "./components/TvRemote/Guide/guides/Functional/SoftwareUpdates";
 import AddGoogleAccount from "./components/TvRemote/Guide/guides/Functional/AddGoogleAccount";
 import DeviceSpec from "./components/TvRemote/Guide/guides/ProductInfo/DeviceSpec";
-
+import ToastBread from "./components/Toaster/ToastBread";
 import { AnimatePresence, motion } from "framer-motion";
 import Toaster from "./components/Toaster/Toaster";
 
@@ -66,6 +66,9 @@ function App() {
           <Route exact path="/req-support" component={Request} />
           <Route exact path="/toaster">
             <Toaster />
+          </Route>
+          <Route exact path="/toaster/toast-bread">
+            <ToastBread />
           </Route>
 
           {links.map(function (link, index) {
