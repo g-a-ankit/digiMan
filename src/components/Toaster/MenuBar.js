@@ -50,7 +50,7 @@ const MenuBar = ({ showMenu }) => {
         {
           menuLinks.map((link, idx) => (
             <motion.li key={idx} variants={listItem}>
-              <Link exact to={`toaster/${menuRoutes[idx]}`}>
+              <Link exact to={`/toaster/${menuRoutes[idx]}`}>
                 <span>{link}</span>
               </Link>
             </motion.li>
