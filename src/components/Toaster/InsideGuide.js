@@ -5,7 +5,7 @@ import Menustyles from "./styles/MenuBar.module.css";
 import Homestyles from "./styles/Home.module.css";
 import Breads from "../../assets/toaster/images/several_bread.svg";
 import { motion } from "framer-motion";
-import ToasterImage from "../../assets/toaster/images/toaster_right_view.svg";
+import SingleBread from "../../assets/toaster/images/single_bread.svg";
 import { AnimatePresence } from "framer-motion";
 
 const container = {
@@ -26,6 +26,11 @@ const container = {
 
 function Toaster() {
   const [showMenu, setShowMenu] = useState(false);
+  const handleOncLick = (e)=>{
+    console.log(e.target)
+      e.target.classList.add(Homestyles["focus-bread"])
+  }
+  
   return (
     <AnimatePresence>
       <div className="Toaster">
@@ -45,10 +50,14 @@ function Toaster() {
         </div>
         <section className={Homestyles["container"]}>
           <div className={Homestyles["guide-image"]}>
-            <img src={Breads} className={Homestyles["main-image"]} />
+            <div className={`${Homestyles["main-image-wrapper"]}`}>
+            <div className={`${Homestyles["bread-overlay"]}`} onClick={handleOncLick}></div>
+            <img src={Breads} className={`${Homestyles["main-image"]} ${Homestyles["centered"]} ${Homestyles["fade-in"]}`} />
+            </div>
           </div>
           <div className={Homestyles["guide-text"]}>
-            <h1 className={Homestyles["title"]}>quick guide</h1>
+            <h1 className={`${Homestyles["title"]} ${Homestyles["title-small"]}  ${Homestyles["bold"]}`}>quick guide</h1>
+            <p className={`${Homestyles["description"]}`}>Select the level of toast : Click on the bread to proceed</p>
           </div>
         </section>
       </div>
