@@ -123,3 +123,26 @@
   left: 175px;
   z-index: 4;
 }
+
+.toasterTop {
+  position: relative;
+  top: 50px;
+  width: 80%;
+  height: 60%;
+  display: block;
+  margin: 0 auto;
+}
+
+.breadTop {
+  transform: scale(0.8, 0.8);
+  position: absolute;
+  top: -110px;
+  left: 160px;
+}
+
+.sliderHandle {
+  position: absolute;
+  top: 268px;
+  left: 155px;
+  z-index: 2;
+}

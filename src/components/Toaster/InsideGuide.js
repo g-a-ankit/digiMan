@@ -7,8 +7,10 @@ import Breads from "../../assets/toaster/images/several_bread.svg";
 import Slider from "../../assets/toaster/images/slider.svg";
 import SliderTrack from "../../assets/toaster/images/slider_track.svg";
 import SliderKnob from "../../assets/toaster/images/slider_knob.svg";
-
+import ToasterTop from "../../assets/toaster/images/toaster_topView.svg";
+import BreadTop from "../../assets/toaster/images/bread_top.svg";
 import ToasterImage from "../../assets/toaster/images/toaster_right_view.svg";
+import SliderHandle from "../../assets/toaster/images/slider_handle.svg";
 import { motion } from "framer-motion";
 import SingleBread from "../../assets/toaster/images/single_bread.svg";
 import { AnimatePresence } from "framer-motion";
@@ -81,6 +83,18 @@ function Toaster() {
               src={SliderKnob}
               className={`${Homestyles["sliderKnob"]} ${Homestyles["centered"]} ${Homestyles["fade-in"]}`}
             />
+          </div>
+        </>
+      );
+    }
+
+    if (step == 2) {
+      return (
+        <>
+          <div>
+            <img src={ToasterTop} className={Homestyles["toasterTop"]} />
+            <img src={BreadTop} className={Homestyles["breadTop"]} />
+            <img src={SliderHandle} className={Homestyles["sliderHandle"]} />
           </div>
         </>
       );
