@@ -40,6 +40,8 @@
 }
 
 .linkText {
+  margin-left: 1em;
+  text-align: center;
   color: black;
 }
 .insideMenuBar {

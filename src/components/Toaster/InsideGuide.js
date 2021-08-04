@@ -119,8 +119,8 @@ function Toaster() {
             initial="hidden"
             animate="show"
           >
-            <h2>menu</h2>
-            <div>Let's Toast Some Bread</div>
+            <h2 style={{ textAlign: "center" }}>Menu</h2>
+            <div style={{ textAlign: "center" }}>Let's Toast Some Bread</div>
           </motion.section>
         </div>
         <section className={Homestyles["container"]}>
