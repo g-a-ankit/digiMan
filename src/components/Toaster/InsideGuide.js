@@ -47,6 +47,10 @@ function Toaster() {
     console.log(e.target);
     e.target.classList.add(Homestyles["focus-bread"]);
   };
+  const handleBreadTopDrag = (e)=>{
+    e.target.style.transform = "translateX(42px)";
+    // document.getElementsByClassName(Homestyles["SliderHandle"]).style.animation 
+  }
   const handleNextStep = () => {
     if (step == 4) return;
     setStep(step + 1);
@@ -83,7 +87,7 @@ function Toaster() {
             <img
               src={SliderKnob}
               className={`${Homestyles["sliderKnob"]} ${Homestyles["centered"]} ${Homestyles["fade-in"]}`}
-              onClick={(e)=>{e.target.style.transform = "translateX(42px)"}}
+              onClick={handleBreadTopDrag}
             />
           </div>
         </>
@@ -95,7 +99,8 @@ function Toaster() {
         <>
           <div>
             <img src={ToasterTop} className={Homestyles["toasterTop"]} />
-            <img src={BreadTop} className={Homestyles["breadTop"]} />
+            <img src={BreadTop} className={Homestyles["breadTop"]} 
+            onDrag={e=>{e.target.style.transform="scale(0.9) translateY(90px) translateX(-20px) rotateY(-40deg)"}}/>
             <img src={SliderHandle} className={Homestyles["sliderHandle"]} />
           </div>
         </>

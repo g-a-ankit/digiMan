@@ -139,6 +139,7 @@
   position: absolute;
   top: -110px;
   left: 160px;
+  transition: transform 0.5s ease;
 }
 
 .sliderHandle {
