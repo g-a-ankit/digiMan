@@ -12,9 +12,10 @@ import BreadTop from "../../assets/toaster/images/bread_top.svg";
 import ToasterImage from "../../assets/toaster/images/toaster_right_view.svg";
 import SliderHandle from "../../assets/toaster/images/slider_handle.svg";
 import { motion } from "framer-motion";
+import BlockSliderToaster from "../../assets/toaster/images/block_slider_toaster.svg";
 import SingleBread from "../../assets/toaster/images/single_bread.svg";
 import { AnimatePresence } from "framer-motion";
-
+import HalfBread from "../../assets/toaster/images/half_bread.svg";
 import IfbImage from "../../assets/toaster/images/ifb.svg";
 const steps = [
   "Select the level of toast : Click on the bread to proceed",
@@ -56,6 +57,7 @@ const container = {
 };
 
 function Toaster() {
+  const [halfbread, sethalfbread] = useState(false);
   const [step, setStep] = useState(0);
   const [fadeinToaster, setfadeinToaster] = useState(false);
   const [showMenu, setShowMenu] = useState(false);
@@ -157,6 +159,42 @@ function Toaster() {
               }}
             />
             <img src={SliderHandle} className={Homestyles["sliderHandle"]} />
+          </div>
+        </>
+      );
+    }
+    if (step == 3) {
+      return (
+        <>
+          <div>
+            <img src={ToasterTop} className={Homestyles["toasterTop"]} />
+            <img
+              src={BlockSliderToaster}
+              className={Homestyles["toasterBlocker"]}
+            />
+            <img
+              id="dragBread"
+              src={BreadTop}
+              className={Homestyles["breadTopinside"]}
+            />
+            <img
+              src={SliderHandle}
+              className={Homestyles["sliderSlide"]}
+              onDrag={(e) => {
+                // document.getElementById("dragBread").style.transform =
+                //   " translateY(20px)";
+                setTimeout(() => {
+                  document.getElementById("dragBread").style.display = "none";
+                  sethalfbread(true);
+                }, 500);
+
+                e.target.style.transform =
+                  "scale(0.9) translateY(90px) translateX(-10px) ";
+              }}
+            />
+            {halfbread && (
+              <img src={HalfBread} className={Homestyles["halfbread"]} />
+            )}
           </div>
         </>
       );
