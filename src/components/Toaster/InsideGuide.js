@@ -7,7 +7,7 @@ import Breads from "../../assets/toaster/images/several_bread.svg";
 import { motion } from "framer-motion";
 import SingleBread from "../../assets/toaster/images/single_bread.svg";
 import { AnimatePresence } from "framer-motion";
-
+import IfbImage from "../../assets/toaster/images/ifb.svg";
 const steps = [
   "Select the level of toast : Click on the bread to proceed",
   "Step 1: Change the toaster level to 2 ",
@@ -67,7 +67,7 @@ function Toaster() {
       <div className="Toaster">
         <div className={`${Menustyles["container"]}`}>
           <section className={Menustyles["header"]}>
-            <h3>IFB</h3>
+            <img src={IfbImage} className={Menustyles["ifb"]} />
           </section>
           <motion.section
             className={`${Menustyles["links"]} ${Menustyles["visible"]}`}

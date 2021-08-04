@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import styles from "./styles/MenuBar.module.css";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
-
+import IfbImage from "../../assets/toaster/images/ifb.svg";
 const container = {
   hidden: {
     opacity: 0,
@@ -36,7 +36,7 @@ const MenuBar = ({ showMenu }) => {
   return (
     <div className={`${styles["container"]}`}>
       <section className={styles["header"]}>
-        <h3>IFB</h3>
+        <img src={IfbImage} className={styles["ifb"]} />
       </section>
       <motion.section
         className={`${styles["links"]} ${
@@ -51,7 +51,7 @@ const MenuBar = ({ showMenu }) => {
           menuLinks.map((link, idx) => (
             <motion.li key={idx} variants={listItem}>
               <Link exact to={`/toaster/${menuRoutes[idx]}`}>
-                <span>{link}</span>
+                <span className={styles["linkText"]}>{link}</span>
               </Link>
             </motion.li>
           )) //idx hah?
