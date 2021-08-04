@@ -42,3 +42,10 @@
 .linkText {
   color: black;
 }
+.insideMenuBar {
+  position: absolute;
+  transform: scale(0.17, 0.17);
+  top: -320px;
+  left: -230px;
+  z-index: 2;
+}
