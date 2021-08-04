@@ -12,9 +12,10 @@ import BreadTop from "../../assets/toaster/images/bread_top.svg";
 import ToasterImage from "../../assets/toaster/images/toaster_right_view.svg";
 import SliderHandle from "../../assets/toaster/images/slider_handle.svg";
 import { motion } from "framer-motion";
+import BlockSliderToaster from "../../assets/toaster/images/block_slider_toaster.svg";
 import SingleBread from "../../assets/toaster/images/single_bread.svg";
 import { AnimatePresence } from "framer-motion";
-
+import HalfBread from "../../assets/toaster/images/half_bread.svg";
 import IfbImage from "../../assets/toaster/images/ifb.svg";
 const steps = [
   "Select the level of toast : Click on the bread to proceed",
@@ -23,7 +24,22 @@ const steps = [
   "Step 3: Pull down the place holder to insert the bread",
   "DONE",
 ];
+const pageVariants = {
+  in: {
+    opacity: 1,
+    x: 0,
+  },
+  out: {
+    opacity: 0,
+    x: "90%",
+  },
+};
 
+const pageTransition = {
+  duration: 1,
+  type: "tween",
+  ease: "anticipate",
+};
 const container = {
   hidden: {
     opacity: 0,
@@ -41,16 +57,23 @@ const container = {
 };
 
 function Toaster() {
+  const [halfbread, sethalfbread] = useState(false);
   const [step, setStep] = useState(0);
+  const [fadeinToaster, setfadeinToaster] = useState(false);
   const [showMenu, setShowMenu] = useState(false);
   const handleOncLick = (e) => {
     console.log(e.target);
     e.target.classList.add(Homestyles["focus-bread"]);
+    setTimeout(() => {
+      setfadeinToaster(true);
+      setStep(step + 1);
+    }, 350);
   };
-  const handleBreadTopDrag = (e)=>{
+  const handleBreadTopDrag = (e) => {
     e.target.style.transform = "translateX(42px)";
-    // document.getElementsByClassName(Homestyles["SliderHandle"]).style.animation 
-  }
+
+    // document.getElementsByClassName(Homestyles["SliderHandle"]).style.animation
+  };
   const handleNextStep = () => {
     if (step == 4) return;
     setStep(step + 1);
@@ -67,6 +90,34 @@ function Toaster() {
             src={Breads}
             className={`${Homestyles["main-image"]} ${Homestyles["centered"]} ${Homestyles["fade-in"]}`}
           />
+          <AnimatePresence>
+            {fadeinToaster && (
+              <motion.div
+                id="home-page"
+                initial="out"
+                animate="in"
+                exit="out"
+                variants={pageVariants}
+                transition={pageTransition}
+              >
+                <img src={ToasterImage} className={Homestyles["insideImg"]} />
+
+                <img
+                  src={Slider}
+                  className={`${Homestyles["slider"]} ${Homestyles["centered"]} ${Homestyles["fade-in"]}`}
+                />
+                <img
+                  src={SliderTrack}
+                  className={`${Homestyles["sliderTrack"]} ${Homestyles["centered"]} ${Homestyles["fade-in"]}`}
+                />
+                <img
+                  src={SliderKnob}
+                  className={`${Homestyles["sliderKnob"]} ${Homestyles["centered"]} ${Homestyles["fade-in"]}`}
+                  onClick={handleBreadTopDrag}
+                />
+              </motion.div>
+            )}
+          </AnimatePresence>
         </div>
       );
 
@@ -99,9 +150,51 @@ function Toaster() {
         <>
           <div>
             <img src={ToasterTop} className={Homestyles["toasterTop"]} />
-            <img src={BreadTop} className={Homestyles["breadTop"]} 
-            onDrag={e=>{e.target.style.transform="scale(0.9) translateY(90px) translateX(-20px) rotateY(-40deg)"}}/>
+            <img
+              src={BreadTop}
+              className={Homestyles["breadTop"]}
+              onDrag={(e) => {
+                e.target.style.transform =
+                  "scale(0.9) translateY(90px) translateX(-20px) rotateY(-40deg)";
+              }}
+            />
             <img src={SliderHandle} className={Homestyles["sliderHandle"]} />
+          </div>
+        </>
+      );
+    }
+    if (step == 3) {
+      return (
+        <>
+          <div>
+            <img src={ToasterTop} className={Homestyles["toasterTop"]} />
+            <img
+              src={BlockSliderToaster}
+              className={Homestyles["toasterBlocker"]}
+            />
+            <img
+              id="dragBread"
+              src={BreadTop}
+              className={Homestyles["breadTopinside"]}
+            />
+            <img
+              src={SliderHandle}
+              className={Homestyles["sliderSlide"]}
+              onDrag={(e) => {
+                // document.getElementById("dragBread").style.transform =
+                //   " translateY(20px)";
+                setTimeout(() => {
+                  document.getElementById("dragBread").style.display = "none";
+                  sethalfbread(true);
+                }, 500);
+
+                e.target.style.transform =
+                  "scale(0.9) translateY(90px) translateX(-10px) ";
+              }}
+            />
+            {halfbread && (
+              <img src={HalfBread} className={Homestyles["halfbread"]} />
+            )}
           </div>
         </>
       );
