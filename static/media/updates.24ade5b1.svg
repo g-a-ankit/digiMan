@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="195" height="196" viewBox="0 0 195 196">
+  <defs>
+    <filter id="Button_bg" x="17.058" y="80.061" width="163.788" height="42" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur"/>
+      <feFlood flood-opacity="0.122"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Button_bg-2" x="17.058" y="82.061" width="163.788" height="42" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-2"/>
+      <feFlood flood-opacity="0.239"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Button_bg-3" x="71.001" y="138.25" width="55.614" height="23.219" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-3"/>
+      <feFlood flood-opacity="0.122"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Button_bg-4" x="71.001" y="140.25" width="55.614" height="23.219" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-4"/>
+      <feFlood flood-opacity="0.239"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="updates" transform="translate(-614 -975)">
+    <g id="Group_40" data-name="Group 40" transform="translate(614 975)">
+      <g id="Rectangle_1512" data-name="Rectangle 1512" fill="#263238" stroke="#707070" stroke-width="1">
+        <rect width="195" height="196" stroke="none"/>
+        <rect x="0.5" y="0.5" width="194" height="195" fill="none"/>
+      </g>
+      <g id="Raised_Normal" data-name="Raised Normal" transform="translate(20.058 83.061)">
+        <g id="Button_bg-5" data-name="Button bg">
+          <g transform="matrix(1, 0, 0, 1, -20.06, -83.06)" filter="url(#Button_bg)">
+            <path id="Button_bg-6" data-name="Button bg" d="M3.586,0H154.2c1.972,0,3.586.9,3.586,2V34c0,1.1-1.614,2-3.586,2H3.586C1.614,36,0,35.1,0,34V2C0,.9,1.614,0,3.586,0Z" transform="translate(20.06 83.06)" fill="#e0e0e0"/>
+          </g>
+          <g transform="matrix(1, 0, 0, 1, -20.06, -83.06)" filter="url(#Button_bg-2)">
+            <path id="Button_bg-7" data-name="Button bg" d="M3.586,0H154.2c1.972,0,3.586.9,3.586,2V34c0,1.1-1.614,2-3.586,2H3.586C1.614,36,0,35.1,0,34V2C0,.9,1.614,0,3.586,0Z" transform="translate(20.06 83.06)" fill="#e0e0e0"/>
+          </g>
+        </g>
+        <text id="Check_for_updates" data-name="Check for updates" transform="translate(78.894 23.5)" fill="rgba(0,0,0,0.87)" font-size="14" font-family="Roboto-Medium, Roboto" font-weight="500" letter-spacing="0.01em"><tspan x="-58.33" y="0">Check for updates</tspan></text>
+      </g>
+      <g id="Raised_Normal-2" data-name="Raised Normal" transform="translate(74.001 141.25)" opacity="0.48">
+        <g id="Group_82" data-name="Group 82">
+          <g id="Button_bg-8" data-name="Button bg">
+            <g transform="matrix(1, 0, 0, 1, -74, -141.25)" filter="url(#Button_bg-3)">
+              <path id="Button_bg-9" data-name="Button bg" d="M1.128,0H48.487a1.056,1.056,0,0,1,1.128.957V16.262a1.056,1.056,0,0,1-1.128.957H1.128A1.056,1.056,0,0,1,0,16.262V.957A1.056,1.056,0,0,1,1.128,0Z" transform="translate(74 141.25)" fill="#e0e0e0"/>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, -74, -141.25)" filter="url(#Button_bg-4)">
+              <path id="Button_bg-10" data-name="Button bg" d="M1.128,0H48.487a1.056,1.056,0,0,1,1.128.957V16.262a1.056,1.056,0,0,1-1.128.957H1.128A1.056,1.056,0,0,1,0,16.262V.957A1.056,1.056,0,0,1,1.128,0Z" transform="translate(74 141.25)" fill="#e0e0e0"/>
+            </g>
+          </g>
+          <text id="Back" transform="translate(24.855 12.269)" fill="rgba(0,0,0,0.87)" font-size="10" font-family="Roboto-Medium, Roboto" font-weight="500" letter-spacing="0.01em"><tspan x="-11.236" y="0">Back</tspan></text>
+        </g>
+      </g>
+    </g>
+    <g id="Back_Arrow_Icon" data-name="Back Arrow Icon" transform="translate(618 979)">
+      <rect id="Bounds" width="31" height="27" fill="none"/>
+      <path id="Icon" d="M25.674,12.044H9.148l7.586-6.435L14.837,4,4,13.193l10.837,9.193,1.9-1.609L9.148,14.343H25.674Z" transform="translate(0.831 0.387)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

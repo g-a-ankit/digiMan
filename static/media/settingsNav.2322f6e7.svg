@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="195" height="196" viewBox="0 0 195 196">
+  <g id="settingsNav" transform="translate(-29.194 -69.745)">
+    <rect id="Base" width="195" height="196" transform="translate(29.194 69.745)" fill="#263238"/>
+    <g id="More_Icon" data-name="More Icon" transform="translate(208.194 92.745)">
+      <rect id="Bounds" width="7" height="14" fill="none"/>
+      <path id="Icon" d="M5.177,6.355A1.177,1.177,0,1,0,4,5.177,1.181,1.181,0,0,0,5.177,6.355Zm0,1.177A1.177,1.177,0,1,0,6.355,8.71,1.181,1.181,0,0,0,5.177,7.532Zm0,3.532a1.177,1.177,0,1,0,1.177,1.177,1.181,1.181,0,0,0-1.177-1.177Z" transform="translate(-1.787 -0.947)" fill="#fff"/>
+    </g>
+    <text id="Settings" transform="translate(68.682 104.745)" fill="#fff" font-size="11" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="0" y="0">Settings</tspan></text>
+    <g id="Back_Arrow_Icon" data-name="Back Arrow Icon" transform="translate(39.195 92.745)">
+      <rect id="Bounds-2" data-name="Bounds" width="13" height="14" fill="none"/>
+      <path id="Icon-2" data-name="Icon" d="M13.419,8.121H6.237l3.3-3.3L8.71,4,4,8.71l4.71,4.71.824-.824-3.3-3.3h7.182Z" transform="translate(-1.548 -0.947)" fill="#fff"/>
+    </g>
+    <rect id="Bounds-3" data-name="Bounds" width="70" height="53" transform="translate(29.194 209.745)" fill="none"/>
+    <rect id="Rectangle_2" data-name="Rectangle 2" width="25.235" height="26.777" rx="12.617" transform="translate(35.171 87.191)" fill="#f6f6f6" opacity="0.57"/>
+    <g id="_7" data-name="#7" transform="translate(84.313 117.745)">
+      <rect id="Bounds-4" data-name="Bounds" width="70" height="52" fill="none"/>
+      <text id="Bluetooth" transform="translate(20 36)" fill="rgba(255,255,255,0.7)" font-size="7" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Bluetooth</tspan></text>
+      <g id="Bluetooth_Icon" data-name="Bluetooth Icon" transform="translate(28.037 7.691)">
+        <path id="Bounds-5" data-name="Bounds" d="M0,0H14.129V14.129H0Z" fill="none"/>
+        <path id="Icon-3" data-name="Icon" d="M12.476,5.356,9.121,2H8.532V6.474L5.824,3.766,5,4.59l3.3,3.3L5,11.184l.824.824L8.532,9.3v4.474h.589l3.356-3.356L9.945,7.887ZM9.71,4.237l1.119,1.119L9.71,6.474Zm1.119,6.181L9.71,11.537V9.3l1.119,1.119Z" transform="translate(-2.057 -0.823)" fill="#fff"/>
+      </g>
+    </g>
+    <g id="_1" data-name="#1" transform="translate(29.194 115.745)">
+      <rect id="Bounds-6" data-name="Bounds" width="70" height="54" fill="none"/>
+      <text id="Wi-Fi" transform="translate(28 38)" fill="rgba(255,255,255,0.7)" font-size="7" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Wi-Fi</tspan></text>
+      <g id="Network_Icon" data-name="Network Icon" transform="translate(28.936 11.559)">
+        <path id="Bounds-7" data-name="Bounds" d="M0,0H14.129V14.129H0Z" fill="none"/>
+        <path id="Icon-4" data-name="Icon" d="M7.229,13.891l6.829-8.536A11.352,11.352,0,0,0,7.229,3,11.352,11.352,0,0,0,.4,5.355l6.829,8.536Z" transform="translate(-0.165 -1.234)" fill="#fff"/>
+        <path id="Icon-5" data-name="Icon" d="M3.5,9.707l5,6.24h0l5-6.181A8.124,8.124,0,0,0,8.5,8a8.652,8.652,0,0,0-5,1.707Z" transform="translate(-1.44 -3.29)" fill="#fff"/>
+      </g>
+    </g>
+    <g id="_4" data-name="#4" transform="translate(141.194 115.745)">
+      <rect id="Bounds-8" data-name="Bounds" width="70" height="54" fill="none"/>
+      <text id="Cast" transform="translate(28 38)" fill="rgba(255,255,255,0.7)" font-size="7" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Cast</tspan></text>
+      <g id="Cast_Icon" data-name="Cast Icon" transform="translate(28.004 10.97)">
+        <path id="Bounds-9" data-name="Bounds" d="M0,0H14.129V14.129H0Z" fill="none"/>
+        <path id="Icon-6" data-name="Icon" d="M12.774,3H2.177A1.181,1.181,0,0,0,1,4.177V5.943H2.177V4.177h10.6v8.242H8.653V13.6h4.121a1.181,1.181,0,0,0,1.177-1.177V4.177A1.181,1.181,0,0,0,12.774,3ZM1,11.83V13.6H2.766A1.735,1.735,0,0,0,1,11.83ZM1,9.476v1.177A2.915,2.915,0,0,1,3.943,13.6H5.121A4.1,4.1,0,0,0,1,9.476ZM1,7.121V8.3a5.276,5.276,0,0,1,5.3,5.3H7.476A6.457,6.457,0,0,0,1,7.121Z" transform="translate(-0.411 -1.234)" fill="#fff"/>
+      </g>
+    </g>
+    <g id="_3" data-name="#3" transform="translate(141.194 165.745)">
+      <rect id="Bounds-10" data-name="Bounds" width="70" height="53" fill="none"/>
+      <text id="Data_saver" data-name="Data saver" transform="translate(17 39)" fill="rgba(255,255,255,0.7)" font-size="7" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Data saver</tspan></text>
+      <g id="Data_Usage_Icon" data-name="Data Usage Icon" transform="translate(28.004 10.485)">
+        <path id="Bounds-11" data-name="Bounds" d="M0,0H14.129V14.129H0Z" fill="none"/>
+        <path id="Icon-7" data-name="Icon" d="M8.476,2V3.766a4.119,4.119,0,0,1,3.532,4.062A3.856,3.856,0,0,1,11.713,9.3l1.531.883a5.384,5.384,0,0,0,.53-2.414A5.907,5.907,0,0,0,8.476,2ZM7.887,12.008A4.112,4.112,0,0,1,7.3,3.825V2a5.9,5.9,0,0,0,.589,11.774,5.965,5.965,0,0,0,4.768-2.414l-1.531-.883A4.167,4.167,0,0,1,7.887,12.008Z" transform="translate(-0.823 -0.823)" fill="#fff"/>
+      </g>
+    </g>
+    <g id="_9" data-name="#9" transform="translate(84.313 166.745)">
+      <rect id="Bounds-12" data-name="Bounds" width="70" height="53" fill="none"/>
+      <text id="Invert_colors" data-name="Invert colors" transform="translate(15 35)" fill="rgba(255,255,255,0.7)" font-size="6" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Invert colors</tspan></text>
+      <g id="Invert_Colors_Icon" data-name="Invert Colors Icon" transform="translate(28.037 8.235)" opacity="0.54">
+        <path id="Bounds-13" data-name="Bounds" d="M0,0H14.129V14.129H0ZM0,0H14.129V14.129H0Z" fill="none"/>
+        <path id="Icon-8" data-name="Icon" d="M13.361,13.25l-1.413-1.413L8.3,8.128,6.179,6.068l-.824-.883L3.765,3.6,3,4.36,4.648,6.009a4.7,4.7,0,0,0,3.709,7.653A4.522,4.522,0,0,0,11.3,12.6l1.589,1.589.765-.765ZM8.3,12.484a3.3,3.3,0,0,1-2.473-1.06,3.3,3.3,0,0,1-1.06-2.473,3.4,3.4,0,0,1,.706-2.119L8.3,9.659Zm0-8.536V6.656l4.239,4.3a4.687,4.687,0,0,0-.942-5.3L8.3,2.3,6.12,4.478l.824.824Z" transform="translate(-1.234 -0.946)" fill="#fff"/>
+      </g>
+    </g>
+    <g id="_4-2" data-name="#4" transform="translate(29.194 165.745)">
+      <rect id="Bounds-14" data-name="Bounds" width="70" height="54" fill="none"/>
+      <text id="Do_not_disturb" data-name="Do not disturb" transform="translate(12 37)" fill="rgba(255,255,255,0.7)" font-size="7" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Do not disturb</tspan></text>
+      <g id="Do_Not_Disturb_Icon" data-name="Do Not Disturb Icon" transform="translate(28.936 9.257)" opacity="0.538">
+        <path id="Bounds-15" data-name="Bounds" d="M0,0H14.129V14.129H0Z" fill="none"/>
+        <path id="Icon-9" data-name="Icon" d="M10.419,7.3V8.476H9.536L12.3,11.243a5.976,5.976,0,0,0,1.06-3.356A5.9,5.9,0,0,0,7.476,2,5.976,5.976,0,0,0,4.12,3.06L8.359,7.3ZM1.765,2.177,1,2.883,2.648,4.531a5.976,5.976,0,0,0-1.06,3.356,5.9,5.9,0,0,0,5.887,5.887,5.976,5.976,0,0,0,3.356-1.06l1.648,1.648.765-.765L6.887,7.3Zm2.767,6.3V7.3h.883L6.593,8.476Z" transform="translate(-0.411 -0.823)" fill="#fff"/>
+      </g>
+    </g>
+    <g id="Slider" transform="translate(35.194 227.701)">
+      <rect id="Bar" width="163" height="1" transform="translate(0 8.044)" fill="#80cdc6"/>
+      <g id="Brightness_High_Icon" data-name="Brightness High Icon" transform="translate(159.907)">
+        <path id="Bounds-16" data-name="Bounds" d="M0,0H16.483V16.483H0Z" fill="none"/>
+        <path id="Icon-10" data-name="Icon" d="M14.046,6.275V3.1H10.808L8.571.8l-2.3,2.3H3.1V6.334L.8,8.571l2.3,2.3V14.1H6.334l2.3,2.3,2.3-2.3h3.238V10.867l2.3-2.3ZM8.571,12.692a4.121,4.121,0,1,1,4.121-4.121A4.1,4.1,0,0,1,8.571,12.692Zm0-6.888a2.767,2.767,0,1,0,2.767,2.767A2.764,2.764,0,0,0,8.571,5.8Z" transform="translate(-0.329 -0.329)" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>

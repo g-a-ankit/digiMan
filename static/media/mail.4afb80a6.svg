@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="195" height="196" viewBox="0 0 195 196">
+  <g id="mail" transform="translate(-90 -434)">
+    <g id="Rectangle_1512" data-name="Rectangle 1512" transform="translate(90 434)" fill="#263238" stroke="#707070" stroke-width="1">
+      <rect width="195" height="196" stroke="none"/>
+      <rect x="0.5" y="0.5" width="194" height="195" fill="none"/>
+    </g>
+    <text id="sam.manual_gmail.com" data-name="sam.manual@gmail.com" transform="translate(97 517.444)" fill="#f6f6f6" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">sam.manual@gmail.com</tspan></text>
+    <line id="Line_70" data-name="Line 70" x2="181.061" transform="translate(97.47 523.337)" fill="none" stroke="#f6f6f6" stroke-width="1" opacity="0.71"/>
+    <g id="icon" transform="translate(198.706 588.027) rotate(180)">
+      <g id="Group_22" data-name="Group 22">
+        <g id="Group_23" data-name="Group 23">
+          <rect id="Rectangle_2" data-name="Rectangle 2" width="28.797" height="29.62" rx="14.399" fill="#fff"/>
+        </g>
+      </g>
+      <path id="Path_11" data-name="Path 11" d="M6.582,5.758v0a.82.82,0,0,0-.252-.592h0L1.394.227l0,0A.822.822,0,1,0,.287,1.447L4.6,5.758.23,10.125h0a.823.823,0,0,0,1.163,1.163h0L6.331,6.352h0a.82.82,0,0,0,.252-.592Z" transform="translate(17.69 20.569) rotate(180)" fill="#18191a"/>
+    </g>
+  </g>
+</svg>

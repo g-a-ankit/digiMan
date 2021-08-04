@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="35.526" height="31.039" viewBox="0 0 35.526 31.039">
+  <g id="Group_58" data-name="Group 58" transform="translate(-690.474 -189.264)">
+    <rect id="Rectangle_1534" data-name="Rectangle 1534" width="35" height="30.433" rx="8" transform="matrix(1, 0.017, -0.017, 1, 691.005, 189.264)" fill="#6a6a6a"/>
+    <g id="Icon_feather-home" data-name="Icon feather-home" transform="matrix(1, 0.017, -0.017, 1, 696.752, 189.751)" opacity="0.61">
+      <path id="Path_118" data-name="Path 118" d="M11.746,2a1,1,0,0,1,.488.127l7.246,4.046a1,1,0,0,1,.512.873V13.4a2.39,2.39,0,0,1-2.61,2.156H6.11A2.39,2.39,0,0,1,3.5,13.4V7.046a1,1,0,0,1,.512-.873l7.246-4.046A1,1,0,0,1,11.746,2Zm6.246,5.633L11.746,4.145,5.5,7.633v5.729a.867.867,0,0,0,.61.2H17.381a.867.867,0,0,0,.61-.2Z" transform="translate(0 6.05)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

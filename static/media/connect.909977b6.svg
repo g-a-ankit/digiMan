@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="350" height="196" viewBox="0 0 350 196">
+  <defs>
+    <filter id="Button_bg" x="220.342" y="80.061" width="94" height="42" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur"/>
+      <feFlood flood-opacity="0.122"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Button_bg-2" x="220.342" y="82.061" width="94" height="42" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-2"/>
+      <feFlood flood-opacity="0.239"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Button_bg-3" x="220.342" y="126.224" width="94" height="42" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-3"/>
+      <feFlood flood-opacity="0.122"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Button_bg-4" x="220.342" y="128.224" width="94" height="42" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-4"/>
+      <feFlood flood-opacity="0.239"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Knob" x="173.5" y="14.5" width="26" height="26" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="0.5" result="blur-5"/>
+      <feFlood flood-opacity="0.122"/>
+      <feComposite operator="in" in2="blur-5"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Knob-2" x="173.5" y="15.5" width="26" height="26" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="0.5" result="blur-6"/>
+      <feFlood flood-opacity="0.239"/>
+      <feComposite operator="in" in2="blur-6"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="connect" transform="translate(-145 -1241.655)">
+    <rect id="Rectangle_1512" data-name="Rectangle 1512" width="161" height="196" transform="translate(334 1241.655)" fill="#263238"/>
+    <text id="Are_you_sure_you_want_to_connect_to_the_network_" data-name="Are you sure you want 
+to connect to the network ?" transform="translate(349 1282.479)" fill="#f6f6f6" font-size="10" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Are you sure you want </tspan><tspan x="0" y="13">to connect to the network ?</tspan></text>
+    <g id="Raised_Normal" data-name="Raised Normal" transform="translate(368.342 1324.716)">
+      <g id="Button_bg-5" data-name="Button bg">
+        <g transform="matrix(1, 0, 0, 1, -223.34, -83.06)" filter="url(#Button_bg)">
+          <path id="Button_bg-6" data-name="Button bg" d="M2,0H86a2.006,2.006,0,0,1,2,2V34a2.006,2.006,0,0,1-2,2H2a2.006,2.006,0,0,1-2-2V2A2.006,2.006,0,0,1,2,0Z" transform="translate(223.34 83.06)" fill="#e0e0e0"/>
+        </g>
+        <g transform="matrix(1, 0, 0, 1, -223.34, -83.06)" filter="url(#Button_bg-2)">
+          <path id="Button_bg-7" data-name="Button bg" d="M2,0H86a2.006,2.006,0,0,1,2,2V34a2.006,2.006,0,0,1-2,2H2a2.006,2.006,0,0,1-2-2V2A2.006,2.006,0,0,1,2,0Z" transform="translate(223.34 83.06)" fill="#e0e0e0"/>
+        </g>
+      </g>
+      <text id="Connect-2" data-name="Connect" transform="translate(44.443 23)" fill="rgba(0,0,0,0.87)" font-size="14" font-family="Roboto-Medium, Roboto" font-weight="500" letter-spacing="0.01em"><tspan x="-26.509" y="0">Connect</tspan></text>
+    </g>
+    <g id="Raised_Normal-2" data-name="Raised Normal" transform="translate(368.342 1370.879)" opacity="0.48">
+      <g id="Button_bg-8" data-name="Button bg">
+        <g transform="matrix(1, 0, 0, 1, -223.34, -129.22)" filter="url(#Button_bg-3)">
+          <path id="Button_bg-9" data-name="Button bg" d="M2,0H86a2.006,2.006,0,0,1,2,2V34a2.006,2.006,0,0,1-2,2H2a2.006,2.006,0,0,1-2-2V2A2.006,2.006,0,0,1,2,0Z" transform="translate(223.34 129.22)" fill="#e0e0e0"/>
+        </g>
+        <g transform="matrix(1, 0, 0, 1, -223.34, -129.22)" filter="url(#Button_bg-4)">
+          <path id="Button_bg-10" data-name="Button bg" d="M2,0H86a2.006,2.006,0,0,1,2,2V34a2.006,2.006,0,0,1-2,2H2a2.006,2.006,0,0,1-2-2V2A2.006,2.006,0,0,1,2,0Z" transform="translate(223.34 129.22)" fill="#e0e0e0"/>
+        </g>
+      </g>
+      <text id="Back" transform="translate(44.443 23)" fill="rgba(0,0,0,0.87)" font-size="14" font-family="Roboto-Medium, Roboto" font-weight="500" letter-spacing="0.01em"><tspan x="-15.731" y="0">Back</tspan></text>
+    </g>
+    <g id="Group_39" data-name="Group 39" transform="translate(145 1241.655)">
+      <rect id="Rectangle_1512-2" data-name="Rectangle 1512" width="211" height="196" fill="#263238"/>
+      <g id="Switches_Tumbler_On" data-name="Switches Tumbler On" transform="translate(152 14)">
+        <rect id="Bounds" width="46" height="27" fill="none"/>
+        <path id="Track" d="M42.072,13.044a8,8,0,0,1-8.044,8.044H11.044A8,8,0,0,1,3,13.044H3A8,8,0,0,1,11.044,5H34.028a8,8,0,0,1,8.044,8.044Z" transform="translate(0.691 0.536)" fill="#7dc6bf" opacity="0.5"/>
+        <g id="Knob-3" data-name="Knob" transform="translate(23 2)" style="isolation: isolate">
+          <g transform="matrix(1, 0, 0, 1, -175, -16)" filter="url(#Knob)">
+            <circle id="Knob-4" data-name="Knob" cx="11.5" cy="11.5" r="11.5" transform="translate(175 16)" fill="#7dc6bf"/>
+          </g>
+          <g transform="matrix(1, 0, 0, 1, -175, -16)" filter="url(#Knob-2)">
+            <circle id="Knob-5" data-name="Knob" cx="11.5" cy="11.5" r="11.5" transform="translate(175 16)" fill="#7dc6bf"/>
+          </g>
+        </g>
+      </g>
+      <text id="Wi-Fi" transform="translate(43 17)" fill="#f6f6f6" font-size="15" font-family="SegoeUI, Segoe UI"><tspan x="0" y="16">Wi-Fi</tspan></text>
+      <g id="Back_Arrow_Icon" data-name="Back Arrow Icon" transform="translate(7 14)">
+        <rect id="Bounds-2" data-name="Bounds" width="27" height="27" fill="none"/>
+        <path id="Icon" d="M22.387,12.044H8.367L14.8,5.609,13.193,4,4,13.193l9.193,9.193L14.8,20.778,8.367,14.343h14.02Z" transform="translate(0.492 0.387)" fill="#fff"/>
+      </g>
+      <path id="Icon_material-signal-wifi-4-bar-lock" data-name="Icon material-signal-wifi-4-bar-lock" d="M25.888,19.046V17.368a2.8,2.8,0,1,0-5.595,0v1.678a1.2,1.2,0,0,0-1.119,1.119v4.476a1.2,1.2,0,0,0,1.119,1.119h5.595a1.2,1.2,0,0,0,1.119-1.119V20.165A1.2,1.2,0,0,0,25.888,19.046Zm-1.119,0H21.412V17.368a1.678,1.678,0,1,1,3.357,0ZM17.5,17.368a5.54,5.54,0,0,1,5.595-5.595,3.449,3.449,0,0,1,1.119.112l2.35-2.909A21.576,21.576,0,0,0,13.58,4.5,21.576,21.576,0,0,0,.6,8.976L13.58,25.2,17.5,20.277Z" transform="translate(20.672 57.331)" fill="#f6f6f6"/>
+      <text id="Radisson_Blu" data-name="Radisson Blu" transform="translate(60 79.619)" fill="#f6f6f6" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Radisson Blu</tspan></text>
+      <text id="Home_Jio" transform="translate(60 162)" fill="#f6f6f6" font-size="13" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Home_Jio</tspan></text>
+      <text id="HPE" transform="translate(60 121.775)" fill="#f6f6f6" font-size="13" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">HPE</tspan></text>
+      <path id="Icon_material-signal-wifi-4-bar" data-name="Icon material-signal-wifi-4-bar" d="M13.747,25.461,26.931,9.035A21.893,21.893,0,0,0,13.736,4.5,21.855,21.855,0,0,0,.54,9.035L13.724,25.461l.011.011Z" transform="translate(20.747 99.818)" fill="#f6f6f6"/>
+      <g id="Icon_material-signal-wifi-statusbar-2-bar" data-name="Icon material-signal-wifi-statusbar-2-bar" transform="translate(21.271 144.862)">
+        <path id="Path_114" data-name="Path 114" d="M13.844,23.981,27.037,7.534A21.917,21.917,0,0,0,13.833,3,21.917,21.917,0,0,0,.63,7.534L13.823,23.97l.01.021.01-.01Z" transform="translate(-0.63 -3)" fill="rgba(0,0,0,0.3)"/>
+        <path id="Path_115" data-name="Path 115" d="M16.11,27.584l7.914-9.866A13.2,13.2,0,0,0,16.1,15a13.2,13.2,0,0,0-7.924,2.718l7.914,9.866Z" transform="translate(-2.896 -6.604)" fill="#f6f6f6"/>
+      </g>
+      <line id="Line_70" data-name="Line 70" x2="197.061" transform="translate(7.47 89.337)" fill="none" opacity="0.71"/>
+      <line id="Line_71" data-name="Line 71" x2="197.061" transform="translate(7.47 132.11)" fill="none" opacity="0.71"/>
+    </g>
+  </g>
+</svg>
