@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="158.433" height="158.433" viewBox="0 0 158.433 158.433">
+  <defs>
+    <filter id="Icon_awesome-plus" x="0" y="0" width="158.433" height="158.433" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Icon_awesome-plus-2" x="0" y="0" width="158.433" height="158.433" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.161" result="color"/>
+      <feComposite operator="out" in="SourceGraphic" in2="blur-2"/>
+      <feComposite operator="in" in="color"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+    </filter>
+    <radialGradient id="radial-gradient" cx="0.501" cy="0.555" r="0.701" gradientTransform="matrix(0, 1, -0.87, 0, 0.983, 0.054)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-opacity="0.129"/>
+      <stop offset="1"/>
+    </radialGradient>
+  </defs>
+  <g id="Group_69" data-name="Group 69" transform="translate(-1 -259.922)">
+    <g data-type="innerShadowGroup">
+      <g transform="matrix(1, 0, 0, 1, 1, 259.92)" filter="url(#Icon_awesome-plus)">
+        <path id="Icon_awesome-plus-3" data-name="Icon awesome-plus" d="M130.4,57.42H85.263V12.281A10.032,10.032,0,0,0,75.232,2.25H65.2A10.032,10.032,0,0,0,55.17,12.281V57.42H10.031A10.032,10.032,0,0,0,0,67.451V77.482A10.032,10.032,0,0,0,10.031,87.513H55.17v45.139A10.032,10.032,0,0,0,65.2,142.683H75.232a10.032,10.032,0,0,0,10.031-10.031V87.513H130.4a10.032,10.032,0,0,0,10.031-10.031V67.451A10.032,10.032,0,0,0,130.4,57.42Z" transform="translate(9 3.75)" fill="#3e3e3e"/>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, 1, 259.92)" filter="url(#Icon_awesome-plus-2)">
+        <path id="Icon_awesome-plus-4" data-name="Icon awesome-plus" d="M130.4,57.42H85.263V12.281A10.032,10.032,0,0,0,75.232,2.25H65.2A10.032,10.032,0,0,0,55.17,12.281V57.42H10.031A10.032,10.032,0,0,0,0,67.451V77.482A10.032,10.032,0,0,0,10.031,87.513H55.17v45.139A10.032,10.032,0,0,0,65.2,142.683H75.232a10.032,10.032,0,0,0,10.031-10.031V87.513H130.4a10.032,10.032,0,0,0,10.031-10.031V67.451A10.032,10.032,0,0,0,130.4,57.42Z" transform="translate(9 3.75)" fill="#fff"/>
+      </g>
+    </g>
+    <rect id="Rectangle_1536" data-name="Rectangle 1536" width="27" height="23.433" rx="3" transform="translate(67.251 324.379)" fill="url(#radial-gradient)"/>
+    <text id="OK" transform="translate(80.455 341.23)" fill="#fff" font-size="13" font-family="Roboto-Bold, Roboto" font-weight="700" letter-spacing="0.03em" opacity="0.86"><tspan x="-8.809" y="0">OK</tspan></text>
+    <path id="Icon_ionic-md-arrow-dropleft" data-name="Icon ionic-md-arrow-dropleft" d="M22.5,9l-9,9,9,9Z" transform="translate(4.955 318.095)" fill="#fff"/>
+    <path id="Icon_ionic-md-arrow-dropright" data-name="Icon ionic-md-arrow-dropright" d="M13.5,9l9,9-9,9Z" transform="translate(117.754 318.23)" fill="#fff"/>
+    <path id="Icon_ionic-md-arrow-dropup" data-name="Icon ionic-md-arrow-dropup" d="M9,22.5l9-9,9,9Z" transform="translate(62.751 256.714)" fill="#fff"/>
+    <path id="Icon_material-arrow-drop-down" data-name="Icon material-arrow-drop-down" d="M10.5,15,18,22.5,25.5,15Z" transform="translate(61.955 375.395)" fill="#fff"/>
+  </g>
+</svg>

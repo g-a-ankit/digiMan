@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="196" height="195" viewBox="0 0 196 195">
+  <g id="addAccount" transform="translate(-201 -1268)">
+    <g id="Rectangle_1512" data-name="Rectangle 1512" transform="translate(201 1268)" fill="#263238" stroke="#707070" stroke-width="1">
+      <rect width="194" height="195" stroke="none"/>
+      <rect x="0.5" y="0.5" width="193" height="194" fill="none"/>
+    </g>
+    <text id="Info" transform="translate(236.151 1285)" fill="#f6f6f6" font-size="15" font-family="Roboto-Regular, Roboto"><tspan x="0" y="16">Info</tspan></text>
+    <g id="Back_Arrow_Icon" data-name="Back Arrow Icon" transform="translate(215 1285)">
+      <rect id="Bounds" width="20" height="20" fill="none"/>
+      <path id="Icon" d="M17.62,9.959H7.235L12,5.192,10.81,4,4,10.81l6.81,6.81L12,16.428,7.235,11.661H17.62Z" transform="translate(-0.673 -0.751)" fill="#fff"/>
+    </g>
+    <text id="Software_update" data-name="Software update" transform="translate(212 1349.357)" fill="#f6f6f6" font-size="20" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Software update</tspan></text>
+    <text id="Add_account" data-name="Add account" transform="translate(212 1391.143)" fill="#f6f6f6" font-size="20" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Add account</tspan></text>
+    <line id="Line_70" data-name="Line 70" x2="180.061" transform="translate(208.47 1356.881)" fill="none" stroke="#f6f6f6" stroke-width="1" opacity="0.71"/>
+    <line id="Line_71" data-name="Line 71" x2="180.061" transform="translate(208.47 1399.436)" fill="none" stroke="#f6f6f6" stroke-width="1" opacity="0.71"/>
+    <text id="About_device" data-name="About device" transform="translate(212 1431)" fill="#f6f6f6" font-size="20" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">About device</tspan></text>
+    <g id="Rectangle_1527" data-name="Rectangle 1527" transform="translate(209 1324.644)" fill="#fff" stroke="#707070" stroke-width="1" opacity="0.31">
+      <rect width="188" height="36" stroke="none"/>
+      <rect x="0.5" y="0.5" width="187" height="35" fill="none"/>
+    </g>
+  </g>
+</svg>

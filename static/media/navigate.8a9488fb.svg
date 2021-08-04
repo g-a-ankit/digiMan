@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="39" height="29" viewBox="0 0 39 29">
+  <g id="navigate" transform="translate(-25 -323)">
+    <g id="Group_87" data-name="Group 87" transform="translate(-597.735 -44.411)">
+      <circle id="Ellipse_31" data-name="Ellipse 31" cx="12.5" cy="12.5" r="12.5" transform="translate(629.735 369.411)" fill="#263238" opacity="0.9"/>
+      <g id="_1" data-name="#1" transform="translate(622.5 367.411)">
+        <rect id="Bounds" width="39" height="29" transform="translate(0.235 0)" fill="none"/>
+      </g>
+    </g>
+    <g id="More_Icon" data-name="More Icon" transform="translate(40.946 330.498)">
+      <rect id="Bounds-2" data-name="Bounds" width="7" height="14" transform="translate(0.054 -0.498)" fill="none"/>
+      <path id="Icon" d="M5.177,6.355A1.177,1.177,0,1,0,4,5.177,1.181,1.181,0,0,0,5.177,6.355Zm0,1.177A1.177,1.177,0,1,0,6.355,8.71,1.181,1.181,0,0,0,5.177,7.532Zm0,3.532a1.177,1.177,0,1,0,1.177,1.177,1.181,1.181,0,0,0-1.177-1.177Z" transform="translate(-1.733 -1.445)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

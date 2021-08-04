@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="195" height="196" viewBox="0 0 195 196">
+  <defs>
+    <filter id="Knob" x="157.5" y="14.5" width="26" height="26" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="0.5" result="blur"/>
+      <feFlood flood-opacity="0.122"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Knob-2" x="157.5" y="15.5" width="26" height="26" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="0.5" result="blur-2"/>
+      <feFlood flood-opacity="0.239"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="updownwifi" transform="translate(-201 -1268)">
+    <g id="Rectangle_1512" data-name="Rectangle 1512" transform="translate(201 1268)" fill="#263238" stroke="#707070" stroke-width="1">
+      <rect width="195" height="196" stroke="none"/>
+      <rect x="0.5" y="0.5" width="194" height="195" fill="none"/>
+    </g>
+    <g id="Switches_Tumbler_On" data-name="Switches Tumbler On" transform="translate(337 1282)">
+      <rect id="Bounds" width="46" height="27" fill="none"/>
+      <path id="Track" d="M42.072,13.044a8,8,0,0,1-8.044,8.044H11.044A8,8,0,0,1,3,13.044H3A8,8,0,0,1,11.044,5H34.028a8,8,0,0,1,8.044,8.044Z" transform="translate(0.691 0.536)" fill="#7dc6bf" opacity="0.5"/>
+      <g id="Knob-3" data-name="Knob" transform="translate(23 2)" style="isolation: isolate">
+        <g transform="matrix(1, 0, 0, 1, -159, -16)" filter="url(#Knob)">
+          <circle id="Knob-4" data-name="Knob" cx="11.5" cy="11.5" r="11.5" transform="translate(159 16)" fill="#7dc6bf"/>
+        </g>
+        <g transform="matrix(1, 0, 0, 1, -159, -16)" filter="url(#Knob-2)">
+          <circle id="Knob-5" data-name="Knob" cx="11.5" cy="11.5" r="11.5" transform="translate(159 16)" fill="#7dc6bf"/>
+        </g>
+      </g>
+    </g>
+    <text id="Wi-Fi" transform="translate(236.602 1285)" fill="#f6f6f6" font-size="15" font-family="SegoeUI, Segoe UI"><tspan x="0" y="16">Wi-Fi</tspan></text>
+    <g id="Back_Arrow_Icon" data-name="Back Arrow Icon" transform="translate(208 1282)">
+      <rect id="Bounds-2" data-name="Bounds" width="27" height="27" fill="none"/>
+      <path id="Icon" d="M22.387,12.044H8.367L14.8,5.609,13.193,4,4,13.193l9.193,9.193L14.8,20.778,8.367,14.343h14.02Z" transform="translate(0.492 0.387)" fill="#fff"/>
+    </g>
+    <path id="Icon_material-signal-wifi-4-bar-lock" data-name="Icon material-signal-wifi-4-bar-lock" d="M25.888,19.046V17.368a2.8,2.8,0,1,0-5.595,0v1.678a1.2,1.2,0,0,0-1.119,1.119v4.476a1.2,1.2,0,0,0,1.119,1.119h5.595a1.2,1.2,0,0,0,1.119-1.119V20.165A1.2,1.2,0,0,0,25.888,19.046Zm-1.119,0H21.412V17.368a1.678,1.678,0,1,1,3.357,0ZM17.5,17.368a5.54,5.54,0,0,1,5.595-5.595,3.449,3.449,0,0,1,1.119.112l2.35-2.909A21.576,21.576,0,0,0,13.58,4.5,21.576,21.576,0,0,0,.6,8.976L13.58,25.2,17.5,20.277Z" transform="translate(221.672 1325.331)" fill="#f6f6f6"/>
+    <text id="Radisson_Blu" data-name="Radisson Blu" transform="translate(253.782 1347.619)" fill="#f6f6f6" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Radisson Blu</tspan></text>
+    <text id="Home_Jio" transform="translate(254.806 1430)" fill="#f6f6f6" font-size="13" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Home_Jio</tspan></text>
+    <text id="HPE" transform="translate(255.894 1389.775)" fill="#f6f6f6" font-size="13" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">HPE</tspan></text>
+    <path id="Icon_material-signal-wifi-4-bar" data-name="Icon material-signal-wifi-4-bar" d="M13.747,25.461,26.931,9.035A21.893,21.893,0,0,0,13.736,4.5,21.855,21.855,0,0,0,.54,9.035L13.724,25.461l.011.011Z" transform="translate(221.747 1367.818)" fill="#f6f6f6"/>
+    <g id="Icon_material-signal-wifi-statusbar-2-bar" data-name="Icon material-signal-wifi-statusbar-2-bar" transform="translate(222.271 1412.862)">
+      <path id="Path_114" data-name="Path 114" d="M13.844,23.981,27.037,7.534A21.917,21.917,0,0,0,13.833,3,21.917,21.917,0,0,0,.63,7.534L13.823,23.97l.01.021.01-.01Z" transform="translate(-0.63 -3)" fill="rgba(0,0,0,0.3)"/>
+      <path id="Path_115" data-name="Path 115" d="M16.11,27.584l7.914-9.866A13.2,13.2,0,0,0,16.1,15a13.2,13.2,0,0,0-7.924,2.718l7.914,9.866Z" transform="translate(-2.896 -6.604)" fill="#f6f6f6"/>
+    </g>
+    <line id="Line_70" data-name="Line 70" x2="181.061" transform="translate(208.47 1357.337)" fill="none" stroke="#f6f6f6" stroke-width="1" opacity="0.71"/>
+    <line id="Line_71" data-name="Line 71" x2="181.061" transform="translate(208.47 1400.11)" fill="none" stroke="#f6f6f6" stroke-width="1" opacity="0.71"/>
+    <g id="Rectangle_1527" data-name="Rectangle 1527" transform="translate(208.47 1321.337)" fill="#fff" stroke="#707070" stroke-width="1" opacity="0.31">
+      <rect width="183" height="36" stroke="none"/>
+      <rect x="0.5" y="0.5" width="182" height="35" fill="none"/>
+    </g>
+  </g>
+</svg>

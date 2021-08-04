@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="185" height="138" viewBox="0 0 185 138">
+  <g id="Group_36" data-name="Group 36" transform="translate(-623 -367)">
+    <g id="Ellipse_31" data-name="Ellipse 31" transform="translate(655 376)" fill="#263238" stroke="#707070" stroke-width="1" opacity="0.9">
+      <circle cx="60" cy="60" r="60" stroke="none"/>
+      <circle cx="60" cy="60" r="59.5" fill="none"/>
+    </g>
+    <g id="_1" data-name="#1" transform="translate(647.462 384.742)">
+      <rect id="Bounds" width="185" height="138" transform="translate(-24.463 -17.742)" fill="none"/>
+      <text id="Wi-Fi" transform="translate(47.538 80.258)" fill="rgba(255,255,255,0.7)" font-size="18" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Wi-Fi</tspan></text>
+      <g id="Network_Icon" data-name="Network Icon" transform="translate(49.786 9.58)">
+        <path id="Bounds-2" data-name="Bounds" d="M0,0H36.893V36.893H0Z" fill="none"/>
+        <path id="Icon" d="M18.232,31.438,36.063,9.149A29.641,29.641,0,0,0,18.232,3,29.641,29.641,0,0,0,.4,9.149L18.232,31.438Z" transform="translate(0.215 1.612)" fill="#fff"/>
+        <path id="Icon-2" data-name="Icon" d="M3.5,12.458,16.566,28.752h0L29.632,12.612A21.213,21.213,0,0,0,16.566,8,22.591,22.591,0,0,0,3.5,12.458Z" transform="translate(1.88 4.298)" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>
