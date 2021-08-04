@@ -83,6 +83,7 @@ function Toaster() {
             <img
               src={SliderKnob}
               className={`${Homestyles["sliderKnob"]} ${Homestyles["centered"]} ${Homestyles["fade-in"]}`}
+              onClick={(e)=>{e.target.style.transform = "translateX(42px)"}}
             />
           </div>
         </>
