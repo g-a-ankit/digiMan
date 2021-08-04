@@ -46,7 +46,7 @@ const MenuBar = ({ showMenu }) => {
         initial="hidden"
         animate="show"
       >
-        <h2>menu</h2>
+        <h2 style={{ textAlign: "center" }}>Menu</h2>
         {
           menuLinks.map((link, idx) => (
             <motion.li key={idx} variants={listItem}>
